@@ -1,9 +1,9 @@
 import React from "react";
-const header = { color: "blue", fontsize: "140px" };
+import "../css/style.css";
 export default function InlineComponent() {
   return (
     <div>
-      <h1 style={header}>InlineComponent</h1>
+      <h1 className="header">InlineComponent</h1>
     </div>
   );
 }
